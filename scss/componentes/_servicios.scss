@@ -8,7 +8,7 @@
         h3 {
         color: $color-negro;
         text-align: left;
-        @extend %estilos-h3;
+        @extend %estilos-h3-servicios;
         }
 
         img {
@@ -40,7 +40,7 @@
     h3 {
         color: $color-blanco;
         text-align: right;
-        @extend %estilos-h3;    
+        @extend %estilos-h3-servicios;    
     }
 
     img {
