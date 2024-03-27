@@ -1,0 +1,37 @@
+.barberiayPeluqueria {
+    background-color: $color-gris-clarito; /* Color de fondo gris */
+    padding: 10px; /* Espaciado interno */
+    margin-right: 10px;
+    /*text-align: left;*/
+
+    h3 {
+        @extend %estilos-h3-productos;
+    }
+
+    h4 {
+        @extend %estilos-h4-productos;
+    }
+
+    h5 {
+        @extend %estilos-h5-productos;
+    }
+}
+
+.productoDePelo {
+    background-color: $color-blanco; /* Color de fondo negro */
+    margin-top: 10px;
+    padding: 10px; /* Espaciado interno */
+    /*text-align: center;*/
+
+    h3 {
+        @extend %estilos-h3-productos;
+    }
+
+    h4 {
+        @extend %estilos-h4-productos;
+    }
+
+    h5 {
+        @extend %estilos-h5-productos;
+    }
+}

@@ -1,0 +1,196 @@
+//importar variables
+
+@import "../utilidades/variables";
+
+//estilos de header
+header{
+    background-color: $color-negro;
+    nav{
+        img {
+            margin: 0 auto; /* Ajusta el margen superior e inferior y centra horizontalmente */
+            background-color: $color-negro; /* Establece el color de fondo negro */
+            background-position: center center;
+            display: block; /* Cambia la visualización a bloque para centrar automáticamente */
+            width: 30%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+            height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+        }
+        /* Reset de estilos para evitar estilos predeterminados del navegador */
+        h2, h4, p, a {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font-family:'Times New Roman', Times, serif; /* Estilos generales para el cuerpo de la página */
+            line-height: 1.6;
+        }
+    }
+        /* Estilos para la sección de menú */
+        .menu {
+            background-color: $color-negro; /* Color de fondo negro */
+            padding: 10px; /* Espaciado interno */
+            text-align: center; 
+            margin-bottom: 40px; /* Estilos para las secciones */
+            a {
+                color: $color-blanco; /* Color del texto blanco */
+                text-decoration: none; /* Elimina el subrayado de los enlaces */
+                padding: 10px 20px; /* Espaciado interno de los enlaces*/ 
+                margin: 0px 80px; /* Margen entre los enlaces */
+                border-radius: 5px; /* Bordes redondeados */
+                display: inline-block; /* Permite centrar horizontalmente */
+                font-family:'Times New Roman', Times, serif;
+                line-height: 2;
+                
+                &:hover {
+                    background-color:$color-blanco; /* Cambia el fondo al pasar el ratón sobre los enlaces */
+                    color: $color-gris-oscuro; /* Cambia el color del texto al pasar el ratón sobre los enlaces */
+                }
+            
+            }
+        }
+}
+
+/* Estilos para la sección "Quienes Somos" */
+.quienesSomos {
+    text-align:center ;
+    background-color: $color-negro;
+
+    h2 {
+        color: $color-blanco; /* Color del texto */
+        
+    }
+
+    img {
+        max-width: 50%;
+        height: auto;
+    }
+    a {
+        display:block;
+        margin-top: 6px; /* Espacio superior entre la imagen y el enlace */
+        padding: 6px; /* Espaciado interno del enlace */
+        background-color:$color-fondo-enlace; /* Color de fondo del enlace */
+        color: $color-negro; /* Color del texto del enlace */
+        text-decoration: none;
+        border-radius: 5px; /* Bordes redondeados para el enlace */
+        font-size: 1.2em;
+    }
+    .arrow {
+        font-size: 1.5em; /* Tamaño del icono, ajusta según tus necesidades */
+        margin-left: 5px; /* Ajusta el margen izquierdo según tus necesidades */
+        line-height: 1.5em; /* Ajusta la altura de línea según el tamaño del icono */
+    }
+    
+    a:hover {
+        background-color: $cambio-de-color-en-el-click-de-footer; /* Cambia el fondo al pasar el ratón sobre los enlaces */
+        color: $color-blanco; /* Cambia el color del texto al pasar el ratón sobre los enlaces */
+    }
+}
+
+.servicios {
+    text-align:center ;
+    background-color: $color-blanco;
+
+
+    h2 {
+        color: $color-negro; /* Color del texto */
+        margin-top: 40px;
+    }
+
+    img {
+        max-width: 30%;
+        height: auto;
+    }
+
+    a {
+        display:block;
+        margin-top: 6px; /* Espacio superior entre la imagen y el enlace */
+        padding: 6px; /* Espaciado interno del enlace */
+        background-color: $color-fondo-enlace; /* Color de fondo del enlace */
+        color: $color-negro; /* Color del texto del enlace */
+        text-decoration: none;
+        border-radius: 5px; /* Bordes redondeados para el enlace */
+        font-size: 1.2em;
+    }
+    .arrow {
+        font-size: 1.5em; /* Tamaño del icono, ajusta según tus necesidades */
+        margin-left: 5px; /* Ajusta el margen izquierdo según tus necesidades */
+        line-height: 1.5em; /* Ajusta la altura de línea según el tamaño del icono */
+    }
+    a:hover {
+        background-color: $cambio-de-color-en-el-click-de-footer; /* Cambia el fondo al pasar el ratón sobre los enlaces */
+        color: $color-blanco; /* Cambia el color del texto al pasar el ratón sobre los enlaces */
+    }
+}
+
+.productos {
+    text-align:center ;
+    background-color: $color-negro;
+
+
+    h2 {
+        color: $color-blanco; /* Color del texto */
+        margin-top: 40px;
+    }
+
+    img {
+        max-width: 50%;
+        height: auto;
+    }
+
+    a {
+        display:block;
+        margin-top: 6px; /* Espacio superior entre la imagen y el enlace */
+        padding: 6px; /* Espaciado interno del enlace */
+        background-color: $color-fondo-enlace; /* Color de fondo del enlace */
+        color: $color-negro; /* Color del texto del enlace */
+        text-decoration: none;
+        border-radius: 5px; /* Bordes redondeados para el enlace */
+        font-size: 1.2em;
+    }
+    .arrow {
+        font-size: 1.5em; /* Tamaño del icono, ajusta según tus necesidades */
+        margin-left: 5px; /* Ajusta el margen izquierdo según tus necesidades */
+        line-height: 1.5em; /* Ajusta la altura de línea según el tamaño del icono */
+    }
+    a:hover {
+        background-color: $cambio-de-color-en-el-click-de-footer; /* Cambia el fondo al pasar el ratón sobre los enlaces */
+        color: $color-blanco; /* Cambia el color del texto al pasar el ratón sobre los enlaces */
+    }
+}
+
+//estilos del footer
+footer {
+    background-color: $color-negro; /* Color de fondo del pie de página */
+    text-align: center;
+    margin-top: 20px;
+
+    a{
+        display:inline-block;
+        margin-top: 30px; /* Espacio superior entre la imagen y el enlace */
+        padding: 6px; /* Espaciado interno del enlace */
+        background-color: $color-blanco; /* Color de fondo del enlace */
+        color: $color-negro; /* Color del texto del enlace */
+        text-decoration: none;
+        border-radius: 5px; /* Bordes redondeados para el enlace */
+        font-size: 1.2em;
+    }
+    a:hover {
+        background-color: $cambio-de-color-en-el-click-de-footer; /* Cambia el fondo al pasar el ratón sobre los enlaces */
+        color: $color-blanco; /* Cambia el color del texto al pasar el ratón sobre los enlaces */
+    }
+
+    /* Estilos para las secciones dentro del pie de página */
+    section {
+        margin-bottom: 40px;
+        flex: 5; /* Ocupa todo el espacio disponible */
+        border: 1px solid $color-negro; /* Borde para separar visualmente los sections (opcional) */
+        box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+    }
+
+    /* Estilos para los títulos (h4) dentro del pie de página */
+    h3 {
+        color: $color-blanco; /* Color del texto */
+        text-align: left; 
+        margin-left: 50px;
+        white-space: nowrap;
+        font-size: 14px;
+    }
+}

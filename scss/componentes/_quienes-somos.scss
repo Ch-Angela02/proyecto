@@ -1,0 +1,27 @@
+.quienesSomos {
+    text-align: justify;
+    padding: 40px;
+    background-color: $color-casi-blanco;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px $color-negro;
+    h2 {
+        color: $color-negro;
+        font-size: 2em;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    img {
+        max-width: 100%;
+        border-radius: 8px;
+        overflow: hidden; /* Asegura que la imagen no sobresalga del contenedor */
+    }
+    p {
+        color: $color-negro;
+        line-height: 2;
+        font-size: 1.5em;
+        margin-top: 0px;
+        text-align: justify;
+        font-family:'Times New Roman', Times, serif;
+    }
+}

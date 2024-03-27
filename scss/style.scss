@@ -1,0 +1,118 @@
+
+//import
+@import "utilidades/variables";
+@import "utilidades/reset";
+@import "utilidades/extend";
+@import "componentes/home";
+@import "componentes/quienes-somos";
+@import "componentes/servicios";
+@import "componentes/productos";
+@import "componentes/listas-de-precios";
+
+//nesting
+    @media only screen and (max-width: 600px) {
+        footer {
+            width: 100%;
+            max-width: 100%;
+            padding: 10px; /* Ajusta según sea necesario */
+            box-sizing: border-box;
+            overflow: hidden;
+        
+            a{
+                font-size: 1em;
+            }
+            h4 {
+                font-size: 8px; /* Ajusta según sea necesario */
+                
+            }
+        }
+    }
+    @media only screen and (min-width: 600px) {
+        footer {
+            width: 100%;
+            max-width: 100%;
+            padding: 10px; /* Ajusta según sea necesario */
+            box-sizing: border-box;
+            overflow: hidden;
+            a{
+            font-size: 1em;
+        }
+        h3 {
+            font-size: 12px; /* Ajusta según sea necesario */  
+        }
+        }
+
+    }
+    @media only screen and (min-width: 1024px) {
+        footer {
+            width: 100%;
+            max-width: 100%;
+            padding: 10px; /* Ajusta según sea necesario */
+            box-sizing: border-box;
+            overflow: hidden;
+            a{
+                font-size: 1em;
+            }
+            h3 {
+                font-size: 18px; /* Ajusta según sea necesario */
+            }
+        }
+    }
+
+.container {
+    display: flex; /* Utiliza flexbox para los elementos hijos */
+    }
+
+/*----------------------------quienes somos--------------------------------*/
+
+    .content {
+        text-align: center;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: row; /* Elementos en fila */
+        justify-content: center; /* Centra los elementos horizontalmente */
+        align-items: center; /* Centra los elementos verticalmente */
+    }
+    .image-container {
+        margin-right: 20px; /* Espacio entre la imagen y el párrafo */
+    }
+    .text-container {
+        max-width: 50%; /* Limita el ancho del contenedor de texto */
+    }
+
+/*-------------------------------------servicios----------------------------*/
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin:2px;
+}
+
+
+@media screen and (max-width:600px){
+    .contenedor{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 20px);
+    }
+    .text-container{
+        display: none;
+    }
+
+}
+
+/*-----------------------------------------------------------------lista de productos----------------------------------------------------------*/
+@media screen and (min-width: 1024px) {
+    .quienesSomos{
+        text-align: center;
+    }
+    .container2 {
+        display: grid;
+        grid-template-rows: repeat(2, 60%);
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+}
+
+
+

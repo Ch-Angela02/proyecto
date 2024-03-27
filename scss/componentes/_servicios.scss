@@ -1,0 +1,64 @@
+.barberia{
+    text-align: justify;
+        padding: 20px;
+        background-color: $color-blanco;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px $color-negro;
+
+        h3 {
+        color: $color-negro;
+        text-align: left;
+        @extend %estilos-h3;
+        }
+
+        img {
+            @extend %estilos-img;
+        }
+    .image-container {
+            float: left; /* Establece la imagen en el lado derecho */
+            margin-right: 20px; /* Ajusta el margen izquierdo según sea necesario */
+            width: 60%; 
+        }
+    p {
+            color: $color-negro;
+            line-height: 1;
+            font-size: 1.5em;
+            margin-top: 0px;
+            text-align: justify;
+            font-family:'Times New Roman', Times, serif;
+        }
+}
+
+/* Manicuria Styles */
+.manicuria {
+    text-align: justify;
+    background-color: $color-negro;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px $color-negro;
+    overflow: hidden;
+
+    h3 {
+        color: $color-blanco;
+        text-align: right;
+        @extend %estilos-h3;    
+    }
+
+    img {
+        @extend %estilos-img;
+    }
+
+    .image-container {
+        float: right;
+        margin-left: 20px;
+        width: 60%; 
+    }
+
+    p {
+        color: $color-blanco;
+        line-height: 1;
+        font-size: 1.5em;
+        margin-top: 0px;
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}

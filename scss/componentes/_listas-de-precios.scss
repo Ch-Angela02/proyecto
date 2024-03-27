@@ -1,0 +1,14 @@
+.turno {
+    background-color: $color-gris-clarito;
+    margin-top: 10px;
+    padding: 10px; /* Espaciado interno */
+    /*text-align: center;*/
+
+    label {
+        font-size: 1.1em;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family:'Times New Roman', Times, serif;
+        color: $color-negro;
+    }
+}

@@ -1,0 +1,33 @@
+%estilos-img{
+    width: 50%; /* Use a fixed width, ensuring the image takes the full width of its container */
+    max-width: 100%; /* Ensure the image does not exceed its natural width */
+    border-radius: 5px;
+
+}
+
+%estilos-h3-servicios{
+    font-size: 2em;
+        margin-bottom: 10px;
+        font-family:'Times New Roman', Times, serif;
+}
+
+%estilos-h3-productos{
+    font-size: 1.5em;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family:'Times New Roman', Times, serif;
+}
+
+%estilos-h4-productos{
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+%estilos-h5-productos{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
